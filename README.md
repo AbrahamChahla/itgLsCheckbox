@@ -241,9 +241,9 @@ This will demonstrate how you can easily render a simple checkbox.
 Based on the work of the following folks, many thanks go out to them:
 
 Jewel Lambert
-http://jewellambert.com/using-jquery-mobile-radio-buttons-in-lightswitch/
+* http://jewellambert.com/using-jquery-mobile-radio-buttons-in-lightswitch/
 
 Mike Droney
-http://blogs.msdn.com/b/lightswitch/archive/2013/07/15/extending-screens-for-multi-select-in-the-lightswitch-html-client-mike-droney.aspx
+* http://blogs.msdn.com/b/lightswitch/archive/2013/07/15/extending-screens-for-multi-select-in-the-lightswitch-html-client-mike-droney.aspx
  
 
