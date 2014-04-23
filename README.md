@@ -205,7 +205,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 
 ##Customizing Boolean3
 
-Ha! We are going to do nothing to Boolean3.  
+Ha! We are going to do nothing more with Boolean3.  
 This will demonstrate how you can easily render a simple checkbox.
 
 ##Customizing Boolean4
