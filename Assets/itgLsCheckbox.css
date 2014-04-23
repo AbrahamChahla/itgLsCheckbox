@@ -1,0 +1,116 @@
+﻿/* ==========================================================
+CSS file for itgLsCheckbox.js
+
+Inline comments should be pretty explanatory
+
+==========================================================*/
+
+
+
+/* The itgLs checkbox does not use the jquery mobile styling */
+/* ==========================================================*/
+.itgLs-checkbox {
+	clear: both;
+}
+
+	/* To make our checkbox symetrical when there is no accompaning text*/
+	.itgLs-checkbox.noLabelCheckbox {
+		width: 20px !important;
+	}
+
+	/* Remove the jqeury mobile graphic checkbox */
+	.itgLs-checkbox .ui-icon {
+		display: none;
+	}
+
+
+	/* Adjust the location of our actual checkbox control */
+	.itgLs-checkbox .ui-checkbox input {
+		top: 9px;
+		z-index: 99;
+		height: 20px;
+		width: 20px;
+		left: 0;
+		margin: 0 !important;
+		cursor: pointer;
+		padding-left: 0;
+	}
+
+	/* Margins for our text/label */
+	.itgls-checkbox .ui-checkbox .ui-btn-text {
+		left: 0 !important;
+	}
+
+
+	/* This is for the text to accompany the checkbox     */
+	/* we are moving margins to match other screen fields */
+	/* this brings the text closer to the checkbox        */
+	.itgLs-checkbox .ui-btn-icon-left .ui-btn-inner {
+		padding-left: 30px;
+	}
+
+	/* Move the label/text over to the left by x number of pixels */
+	.itgLs-checkbox label {
+		padding-left: 5px;
+	}
+
+	.itgLs-checkbox .noLabelCheckbox label {
+		width: 0;
+		padding-left: 0;
+	}
+
+
+/* Make a no label checkbox with jquery mobile look symetrical */
+/* ==========================================================*/
+.noLabelCheckbox {
+	width: 45px !important;
+}
+
+
+	/* The following allows a jquery mobile checkbox with no label */
+	/* ==========================================================*/
+	.noLabelCheckbox .ui-btn-inner {
+		padding-left: 0 !important;
+		min-width: 0;
+	}
+
+
+/* This removes the border around a jquery/LS checkbox */
+/* ==========================================================*/
+.ui-checkbox .ui-btn {
+	box-shadow: none;
+	border: none !important;
+	margin: inherit;
+}
+
+
+/* ==========================================================*/
+/* ==========================================================*/
+/* For webkit (safari and chrome) browsers */
+/* ==========================================================*/
+/* ==========================================================*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	.itgLs-checkbox .ui-checkbox input {
+		top: 13px;
+		z-index: 99;
+		height: 20px;
+		width: 20px;
+		left: 0;
+		margin: 0 !important;
+		cursor: pointer;
+	}
+
+	.ui-checkbox .ui-btn-icon-left .ui-btn-inner {
+		padding-left: 30px;
+	}
+
+	.ui-checkbox label {
+		padding-left: 10px;
+	}
+
+	.noLabelCheckbox .ui-checkbox .ui-btn {
+		width: 10px !important;
+	}
+
+}
