@@ -79,7 +79,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 10. You should see a column with checkboxes, one with flip switches, and one with textboxes
 11. Start clicking around, you'll notice they all get updated no matter where the data changes
 12. Notice how you can have the top label and text as different and showing at the same time
-13. Now for each custom control go change the Label Position property to hidden
+13. Now for each custom control go change the Label Position property to **"none"**
 14. Go rerun your app
 15. Hmmm… notice number 4 has text.  Here is the order of how we get the text for a control
 	* Text property passed in the options object of the function (overrides all)
