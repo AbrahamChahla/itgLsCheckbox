@@ -2,7 +2,7 @@
 This quick tutorial will show you how to turn a LightSwitch boolean property into a checkbox.  Giving you one more tool in your belt.
 
 You can download the code from the repository on **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
-We've also created a NuGet package, search for **itgLsCheckbox**.
+In the Assets folder you'll find the Stylesheet and JavaScript for this tutorial.
 
 And... we created a [video] on how to use the library if that suits your learning style better.
 
@@ -18,9 +18,9 @@ And... we created a [video] on how to use the library if that suits your learnin
 5. Run your app, add some records
 6. Close the app, return to Visual Studio
 7. Right click on the HTML Client project Content folder
-8. Add existing item, go navigate to and add **itgLsCheckbox.css**
+8. Add existing item, navigate to the Assets folder and add **itgLsCheckbox.css**
 9. Right click on the HTML Client project Scripts folder
-10. Add existing item, go navigate to and add **itgLsCheckbox.js**
+10. Add existing item, navigate to the Assets folder and add **itgLsCheckbox.js**
 11. Add both to your default.htm in their corresponding sections
 12. Open up the Add/Edit screen
 13. Change the screen to not Show As Dialog, or not
