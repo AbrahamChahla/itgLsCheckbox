@@ -167,7 +167,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 	* checkedCssClassForText - A CSS class to be used on the text when the box is checked
 	* uncheckedCssClassForText - A CSS class to be used on the text when the box is unchecked
 	* onChange - function to run when the checkbox is clicked and changed
-4. And remember, are no dependencies between options.  Pass all, a single, or none.
+4. And remember, there are no dependencies between options.  Pass all, a single, or none.
 5. Change the itgLs.ui.checkbox.render function with the following code
 
 	```
