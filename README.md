@@ -1,8 +1,8 @@
 #itgLsCheckbox
-This quick tutorial will show you how to turn a LightSwitch boolean property into a checkbox.  Giving you one more tool in your belt.
+This quick tutorial will show you how to turn a LightSwitch boolean property into a checkbox.
 
-You can download the code from the repository on **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
-We've also created a NuGet package, search for **itgLsCheckbox**.
+You can download the code and sample project from our repository at **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
+You'll find the Stylesheet and JavaScript for this tutorial in the Assets folder..
 
 And... we created a [video] on how to use the library if that suits your learning style better.
 
@@ -18,9 +18,9 @@ And... we created a [video] on how to use the library if that suits your learnin
 5. Run your app, add some records
 6. Close the app, return to Visual Studio
 7. Right click on the HTML Client project Content folder
-8. Add existing item, go navigate to and add **itgLsCheckbox.css**
+8. Add existing item, navigate to the Assets folder and add **itgLsCheckbox.css**
 9. Right click on the HTML Client project Scripts folder
-10. Add existing item, go navigate to and add **itgLsCheckbox.js**
+10. Add existing item, navigate to the Assets folder and add **itgLsCheckbox.js**
 11. Add both to your default.htm in their corresponding sections
 12. Open up the Add/Edit screen
 13. Change the screen to not Show As Dialog, or not
@@ -79,7 +79,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 10. You should see a column with checkboxes, one with flip switches, and one with textboxes
 11. Start clicking around, you'll notice they all get updated no matter where the data changes
 12. Notice how you can have the top label and text as different and showing at the same time
-13. Now for each custom control go change the Label Position property to hidden
+13. Now for each custom control go change the Label Position property to **"none"**
 14. Go rerun your app
 15. Hmmm… notice number 4 has text.  Here is the order of how we get the text for a control
 	* Text property passed in the options object of the function (overrides all)
@@ -167,7 +167,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 	* checkedCssClassForText - A CSS class to be used on the text when the box is checked
 	* uncheckedCssClassForText - A CSS class to be used on the text when the box is unchecked
 	* onChange - function to run when the checkbox is clicked and changed
-4. And remember, are no dependencies between options.  Pass all, a single, or none.
+4. And remember, there are no dependencies between options.  Pass all, a single, or none.
 5. Change the itgLs.ui.checkbox.render function with the following code
 
 	```
@@ -205,7 +205,7 @@ And... we created a [video] on how to use the library if that suits your learnin
 
 ##Customizing Boolean3
 
-Ha! We are going to do nothing to Boolean3.  
+Ha! We are going to do nothing more with Boolean3.  
 This will demonstrate how you can easily render a simple checkbox.
 
 ##Customizing Boolean4
