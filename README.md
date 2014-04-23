@@ -1,8 +1,8 @@
 #itgLsCheckbox
-This quick tutorial will show you how to turn a LightSwitch boolean property into a checkbox.  Giving you one more tool in your belt.
+This quick tutorial will show you how to turn a LightSwitch boolean property into a checkbox.
 
-You can download the code from the repository on **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
-In the Assets folder you'll find the Stylesheet and JavaScript for this tutorial.
+You can download the code and sample project from our repository at **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
+You'll find the Stylesheet and JavaScript for this tutorial in the Assets folder..
 
 And... we created a [video] on how to use the library if that suits your learning style better.
 
