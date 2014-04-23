@@ -36,3 +36,21 @@
 screen and (max-width: 400px) and (orientation: portrait), 
 screen and (max-width: 640px) and (max-height: 400px) and (orientation: landscape) {
 }
+
+/* These are used for testing our checkboxes */
+.red-small-bold {
+    color: red;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+.green-bold {
+    color: green;
+    font-weight: bold;
+}
+
+.blue-bold {
+    color: blue;
+    font-weight: bold;
+}
+
