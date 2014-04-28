@@ -26,7 +26,7 @@ Inline comments should be pretty explanatory
 
 	/* Adjust the location of our actual checkbox control */
 	.itgLs-checkbox .ui-checkbox input {
-		top: 9px;
+		top: 7px;
 		z-index: 99;
 		height: 20px;
 		width: 20px;
@@ -92,7 +92,7 @@ Inline comments should be pretty explanatory
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
 	.itgLs-checkbox .ui-checkbox input {
-		top: 13px;
+		top: 9px;
 		z-index: 99;
 		height: 20px;
 		width: 20px;
@@ -113,4 +113,9 @@ Inline comments should be pretty explanatory
 		width: 10px !important;
 	}
 
+}
+
+/* Set the font size to whatever you are using as normalized screen font size */
+.itgls-checkbox .ui-fullsize .ui-btn-inner, .ui-fullsize .ui-btn-inner {
+	font-size: 14px;
 }
