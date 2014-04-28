@@ -4,8 +4,6 @@ This quick tutorial will show you how to turn a LightSwitch boolean property int
 You can download the code and sample project from our repository at **[GitHub](https://www.github.com/dwm9100b/itgLsCheckbox)**.  
 You'll find the Stylesheet and JavaScript for this tutorial in the Assets folder..
 
-And... we created a [video] on how to use the library if that suits your learning style better.
-
 ##Project Setup	
 1. Create a new Visual Studio LightSwitch HTML Client
 2. Create a new Table named Test with the following properties
@@ -239,3 +237,13 @@ This will demonstrate how you can easily render a simple checkbox.
 	* addCssClassForText(contentItem, cssClass)
 	* removeCssClassForText(contentItem, cssClass)
 	* initializeCss(element, css)
+
+Based on the work of the following folks, many thanks go out to them:
+
+Jewel Lambert
+* http://jewellambert.com/using-jquery-mobile-radio-buttons-in-lightswitch/
+
+Mike Droney
+* http://blogs.msdn.com/b/lightswitch/archive/2013/07/15/extending-screens-for-multi-select-in-the-lightswitch-html-client-mike-droney.aspx
+ 
+
